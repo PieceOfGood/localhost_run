@@ -47,7 +47,7 @@ git clone https//:...
 
 ```python
 import asyncio
-from localhost_run_monitor import (
+from localhost_run import (
     monitor, Channel, Receiver)
 
 RED_CMD = "\x1b[31m{}\x1b[0m"
